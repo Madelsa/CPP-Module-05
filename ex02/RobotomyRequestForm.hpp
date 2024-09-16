@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   RobotomyRequestForm.hpp                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/13 16:32:47 by mahmoud           #+#    #+#             */
-/*   Updated: 2024/09/13 17:25:43 by mahmoud          ###   ########.fr       */
+/*   Updated: 2024/09/16 10:11:33 by mabdelsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #define ROBOTOMYREQUESTFORM_HPP
 
 #include "AForm.hpp"
-#include <cstdlib>
 
 class RobotomyRequestForm : public AForm
 {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Intern.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/15 20:02:28 by mahmoud           #+#    #+#             */
-/*   Updated: 2024/09/15 20:14:19 by mahmoud          ###   ########.fr       */
+/*   Updated: 2024/09/16 10:23:26 by mabdelsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,5 +54,5 @@ AForm *Intern::makeForm(std::string formName, std::string target) const
         }
     }
     std::cout << "Error: Form type " << formName << " does not exist." << std::endl;
-    return nullptr;
+    return NULL;
 }

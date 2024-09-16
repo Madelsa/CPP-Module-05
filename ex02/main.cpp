@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 09:47:39 by mabdelsa          #+#    #+#             */
-/*   Updated: 2024/09/15 19:51:33 by mahmoud          ###   ########.fr       */
+/*   Updated: 2024/09/16 10:17:11 by mabdelsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,25 +18,17 @@
 
 int main()
 {
-        Bureaucrat b1("A", 150);
+        Bureaucrat b1("A", 1);
 
-        // Create forms with various targets
         ShrubberyCreationForm sForm("Shrub");
         RobotomyRequestForm rForm("Robot");
         PresidentialPardonForm pForm("Adam");
 
-        // Attempt to sign forms with both bureaucrats
         b1.signForm(sForm);
         b1.signForm(rForm);
         b1.signForm(pForm);
 
-       
-
-        // Attempt to execute forms with both bureaucrats
         b1.executeForm(sForm);
         b1.executeForm(rForm);
         b1.executeForm(pForm);
-
-     
-
 }

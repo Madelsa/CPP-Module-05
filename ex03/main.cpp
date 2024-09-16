@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mahmoud <mahmoud@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mabdelsa <mabdelsa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/05 09:47:39 by mabdelsa          #+#    #+#             */
-/*   Updated: 2024/09/15 20:11:26 by mahmoud          ###   ########.fr       */
+/*   Updated: 2024/09/16 10:24:29 by mabdelsa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,12 @@ int main()
     {
         b1.signForm(*form);
         b1.executeForm(*form);
+        delete form;
+    }
+
+    form = intern.makeForm("invalid", "none");
+    if (form) 
+    {
         delete form;
     }
 
